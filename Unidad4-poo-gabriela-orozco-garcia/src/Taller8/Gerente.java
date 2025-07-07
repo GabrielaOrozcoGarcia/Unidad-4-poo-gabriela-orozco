@@ -1,6 +1,6 @@
-package Taller6;
+package Taller8;
 
-public class Gerente extends Empleado {
+public class Gerente extends Empleado{
 
     private String departamento;
 
@@ -9,7 +9,7 @@ public class Gerente extends Empleado {
         this.departamento = departamento;
     }
 
-    public void mostrarInformacion(){
+    public void mostrarDetalles(){
         super.mostrarDetalles();
         System.out.println("Departamento: "+ departamento);
     }
