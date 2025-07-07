@@ -1,4 +1,4 @@
-package Taller8;
+package Taller9;
 
 public class Persona {
 
@@ -11,7 +11,8 @@ public class Persona {
     }
 
     public void mostrarDetalles(){
-        System.out.println("Nombre: "+ nombre);
-        System.out.println("Edad: "+ edad);
+        System.out.print("Nombre: "+ nombre);
+        System.out.print("Edad: "+ edad);
     }
 }
+

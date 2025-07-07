@@ -2,8 +2,8 @@ package Taller8;
 
 public class Empleado {
 
-    private String  nombre;
-    private int salario;
+    protected String  nombre;
+    protected int salario;
 
     public Empleado(String nombre, int salario) {
         this.nombre = nombre;
